@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw;
+    height: 60px;
+    background-color: antiquewhite;
+}
+
+.navbar-section {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+
+a {
+    color: black;
+}
+
+.nav-link {
+    display: inline;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.navbar-brand:hover {
+    color: rgb(230, 87, 87);
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    color:  rgb(230, 87, 87);
+    transition: all 0.5s;
+}
+
+/* .hero-img {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.container-2 {
+    background-image: url("Background.jpg");
+    /* width: 700px; */
+    position: relative;
+    overflow: hidden;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-section {
+    width: 70%;
+    text-align: start;
+    padding: 170px;
+}
+.hero-heading {
+    font-size: 22px;
+    text-align: start;
+    margin-bottom: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hero-subheading {
+    font-size: 52px;
+    text-align: start;
+    margin-bottom: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-p {
+    font-size: 21px;
+    line-height: 1.4;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: antiquewhite;
+    transition: all 0.7s;
+}
+
+.hero-btn:hover {
+    background-color: rgb(120, 189, 189);
+    transition: all 0.7s;
+}

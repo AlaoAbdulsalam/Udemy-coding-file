@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            color: #343a40;
+            line-height: 1;
+        }
+
+        .accordion {
+            width: 720px;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .section {
+            /* display: flex;
+            gap: 24px; */
+            box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            column-gap: 24px;
+            row-gap: 32px;
+        }
+
+        .heading-size {
+            font-size: 25px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .color {
+            color: #c4d2e0;
+        }
+
+        .second-section-color {
+            color: #087f5b;
+        }
+
+        .section-border {
+            border-top: 4px solid #087f5b;
+        }
+
+        .second-section-p {
+            margin-left: 73px;
+            line-height: 1.6;
+        }
+
+        .second-section-ul {
+            margin-left: 84px;
+            line-height: 1.6;
+            color: #c4d2e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="accordion">
+        <div class="section">
+            <p class="heading-size color">01</p>
+            <p class="heading-size">How long do I have to return my chair</p>
+        </div>
+        <p class="hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, corporis voluptas laborum enim quas voluptate architecto, dicta saepe impedit, quisquam voluptates alias. Dolores consequuntur molestiae corporis, mollitia incidunt molestias aliquid?</p>
+
+        <div class="section section-border">
+            <p class="heading-size second-section-color">02</p>
+            <p class="heading-size second-section-color">How long do I have to return my chair</p>
+        </div>
+        <p class="second-section-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, corporis voluptas laborum enim quas voluptate architecto, dicta saepe impedit, quisquam voluptates alias. Dolores consequuntur molestiae corporis, mollitia incidunt molestias aliquid?</p>
+
+        <ul class="second-section-ul">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </li>
+        </ul>
+        <div class="section">
+            <p class="heading-size color">03</p>
+            <p class="heading-size">How long do I have to return my chair</p>
+        </div>
+        <p class="hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, corporis voluptas laborum enim quas voluptate architecto, dicta saepe impedit, quisquam voluptates alias. Dolores consequuntur molestiae corporis, mollitia incidunt molestias aliquid?</p>
+    </div>
+</body>
+</html>

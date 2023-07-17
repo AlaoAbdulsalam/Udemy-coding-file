@@ -1,0 +1,36 @@
+body {
+    background-color: hsla(100%, 100%, 30%, 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    /* color: bisque; */
+    text-align: center;
+    font-weight: 400;
+    background-color: rgba(140, 80, 10, 0.4);
+}
+
+.color-rgb {
+   background-color: hsl(50, 100%, 100%);
+}
+
+
+p {
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(158, 158, 93);
+}
+
+.heading-and-paragraphs {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-link {
+    color: Black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+}

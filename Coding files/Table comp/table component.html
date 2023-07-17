@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Component</title>
+
+    <style>
+        /* th-bg-color: rgba(126, 172, 100, 0.911) td-bg-color: rgb(216, 193, 193);  */
+        * { 
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        table {
+            width: 600px;
+            margin: 100px auto;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        th {
+            font-size: 18px;
+            font-weight: 200;
+            padding: 13px;
+            background-color: rgba(126, 172, 100, 0.911);
+        }
+        td {
+            font-size: 16px;
+            padding: 13px;
+            text-transform: uppercase;
+        }
+
+        .second-element, .last-element {
+            background-color: rgb(216, 193, 193);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Shoe type</th>
+            <th>Shoe size</th>
+            <th>Numbers Available</th>
+        </tr>
+        <tr>
+            <td>Nike</td>
+            <td>24</td>
+            <td>10</td>
+        </tr>
+        <tr class="second-element">
+            <td>Hilfiger</td>
+            <td>29</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Adidas</td>
+            <td>14</td>
+            <td>40</td>
+        </tr>
+        <tr class="last-element">
+            <td>Fila</td>
+            <td>40</td>
+            <td>20</td>
+        </tr>
+    </table>
+</body>
+</html>

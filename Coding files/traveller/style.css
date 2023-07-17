@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.header {
+    width: 1400px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    gap: 700px;
+}
+
+.nav-brand {
+    font-size: 27px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    margin: 27px;
+    display: inline;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+li:hover {
+    color: orangered;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.container {
+    background-image: url("photo\ 1.avif");
+    width: 700px;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-section {
+    margin: 200px auto;
+    width: 700px;
+}
+.hero-heading {
+    font-size: 40px;
+}
+
+.hero-p {
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+.hero-btn {
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.hero-btn:hover {
+    background-color: orangered;
+    transition: all 0.5s;
+}
+.section-heading {
+    max-width: 55rem;
+    margin: 0 auto 8rem auto;
+    margin-top: 50px;
+}
+
+.places-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(91, 164, 91);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.places-subheading {
+    font-size: 2.6rem;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.another-container {
+    width: 1300px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.country {
+    font-size: 30px;
+    padding-bottom: 15px;
+    border-bottom: 5px solid orangered;
+}
+
+.about-country {
+    padding-top: 17px;
+    font-size: 19px;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+}
+
+.display-flex {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    margin: 100px auto;
+}
+
+.icon{
+    margin-left: 48px;
+}
+
+.procedure-p {
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.procedure-heading {
+    padding-left: 16px;
+    font-size: 23px;
+    margin-top: 10px;
+    color: orangered;
+}
